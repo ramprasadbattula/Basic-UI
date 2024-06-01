@@ -1,0 +1,59 @@
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right top, #4e54c8, #8f94fb);
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Service Section */
+.service-section {
+    margin-bottom: 30px;
+}
+
+/* Service Buttons */
+.btn {
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #4a3dc6;
+    transform: translateY(-3px);
+}
+
+/* Logout Button */
+.logout-btn {
+    background-color: #ff6b6b;
+}
+
+.logout-btn:hover {
+    background-color: #e74c3c;
+}
